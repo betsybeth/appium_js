@@ -1,0 +1,23 @@
+{
+  "name": "appium_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^6.1.5"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^6.1.6",
+    "@wdio/mocha-framework": "^6.1.6",
+    "@wdio/selenium-standalone-service": "^6.0.16",
+    "@wdio/spec-reporter": "^6.1.5",
+    "@wdio/sync": "^6.1.5",
+    "chai": "^4.2.0"
+  }
+}
